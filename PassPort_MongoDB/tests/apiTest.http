@@ -1,0 +1,17 @@
+### check server
+
+GET http://localhost:8080/status
+
+###
+GET http://localhost:8080/profile
+
+
+### loin
+
+POST http://localhost:8080/login
+Content-Type:application/json
+
+{
+    "username":"tien",
+    "password":"123"
+}

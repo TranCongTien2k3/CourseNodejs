@@ -1,0 +1,19 @@
+<% for(var i=0 ;i< category.length;i++) {%>
+<tr>
+  <td scope="row"><%= category[i].id%></td>
+  <td><%= category[i].name%></td>
+  <td>
+    <a href="/items/categories/<%= category[i]._id%>" class="btn btn-outline-info"
+      ><i class="fas fa-info"></i
+    ></a>
+    <a
+      href="/items/categories?id=<%= category[i]._id%>"
+      class="btn btn-outline-warning"
+      ><i class="fas fa-edit"></i
+    ></a>
+    <a class="btn btn-outline-danger" data-id=<%= category[i]._id%>
+      ><i class="fas fa-trash-alt"></i
+    ></a>
+  </td>
+</tr>
+<%}%>

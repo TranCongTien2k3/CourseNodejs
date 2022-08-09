@@ -1,0 +1,24 @@
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.header {
+  height: 400px;
+}
+.header .top-nav {
+  height: 100px;
+}
+.header .image-nav {
+  height: 300px;
+}
+.header .bottom-nav {
+  height: 150px;
+}/*# sourceMappingURL=style.css.map */
